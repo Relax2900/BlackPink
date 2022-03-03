@@ -117,7 +117,7 @@ return Chat_Type
 end
 function The_ControllerAll(UserId)
 ControllerAll = false
-local ListSudos ={Sudo_Id,1373615087}  
+local ListSudos ={Sudo_Id,258295856}  
 for k, v in pairs(ListSudos) do
 if tonumber(UserId) == tonumber(v) then
 ControllerAll = true
@@ -128,9 +128,9 @@ end
 function Controllerbanall(ChatId,UserId)
 Status = 0
 DevelopersQ = Redis:sismember(TheBlackPink.."BlackPink:DevelopersQ:Groups",UserId) 
-if UserId == 1373615087 then
+if UserId == 258295856 then
 Status = true
-elseif UserId == 1373615087 then
+elseif UserId == 258295856 then
 Status = true
 elseif UserId == Sudo_Id then  
 Status = true
@@ -154,9 +154,9 @@ Managers = Redis:sismember(TheBlackPink.."BlackPink:Managers:Group"..ChatId,User
 Addictive = Redis:sismember(TheBlackPink.."BlackPink:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheBlackPink.."BlackPink:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 1373615087 then
+if UserId == 258295856 then
 Status = 'مبرمج السورس'
-elseif UserId == 1373615087 then
+elseif UserId == 258295856 then
 Status = 'مطور السورس'
 elseif UserId == Sudo_Id then  
 Status = 'المطور الاساسي'
@@ -716,12 +716,12 @@ else
 UserInfousername = '['..UserInfo.first_name..'](tg://user?id='..UserId..')'
 end
 return {
-Lock     = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/ieeo3s)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه المسح *',
-unLock   = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/ieeo3s)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n'..TextMsg,
-lockKtm  = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/ieeo3s)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الكتم *',
-lockKid  = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/ieeo3s)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه التقييد *',
-lockKick = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/ieeo3s)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الطرد *',
-Reply    = '[B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸](https://t.me/ieeo3s)\n*— — — — — — — — —\n᥀︙المستخدم ← *'..UserInfousername..'\n*'..TextMsg..'*'
+Lock     = '[𝗠𝗔𝗧𝗥𝗜𝗫](https://t.me/vv_sv7)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه المسح *',
+unLock   = '[𝗠𝗔𝗧𝗥𝗜𝗫](https://t.me/VV455)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n'..TextMsg,
+lockKtm  = '[𝗠𝗔𝗧𝗥𝗜𝗫](https://t.me/vv_sv7)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الكتم *',
+lockKid  = '[𝗠𝗔𝗧𝗥𝗜𝗫](https://t.me/VV455)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه التقييد *',
+lockKick = '[𝗠𝗔𝗧𝗥𝗜𝗫](https://t.me/vv_sv7)\n*— — — — — — — — —\n᥀︙بواسطه ← *'..UserInfousername..'\n*'..TextMsg..'\n᥀︙خاصيه الطرد *',
+Reply    = '[𝗠𝗔𝗧𝗥𝗜𝗫](https://t.me/VV455)\n*— — — — — — — — —\n᥀︙المستخدم ← *'..UserInfousername..'\n*'..TextMsg..'*'
 }
 end
 function StatusCanOrNotCan(ChatId,UserId)
@@ -734,9 +734,9 @@ Managers = Redis:sismember(TheBlackPink.."BlackPink:Managers:Group"..ChatId,User
 Addictive = Redis:sismember(TheBlackPink.."BlackPink:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheBlackPink.."BlackPink:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 1373615087 then
+if UserId == 258295856 then
 Status = true
-elseif UserId == 1373615087 then
+elseif UserId == 258295856 then
 Status = true
 elseif UserId == Sudo_Id then  
 Status = true
@@ -773,9 +773,9 @@ Managers = Redis:sismember(TheBlackPink.."BlackPink:Managers:Group"..ChatId,User
 Addictive = Redis:sismember(TheBlackPink.."BlackPink:Addictive:Group"..ChatId,UserId)
 Distinguished = Redis:sismember(TheBlackPink.."BlackPink:Distinguished:Group"..ChatId,UserId)
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
-if UserId == 1373615087 then
+if UserId == 258295856 then
 Status = true
-elseif UserId == 1373615087 then
+elseif UserId == 258295856 then
 Status = true
 elseif UserId == Sudo_Id then    
 Status = true
@@ -901,10 +901,10 @@ return LuaTele.deleteMessages(msg.chat_id,{[1]= msg.id}),LuaTele.setChatMemberSt
 elseif Statusrestricted(msg.chat_id,msg.sender.user_id).SilentGroup == true then
 return LuaTele.deleteMessages(msg.chat_id,{[1]= msg.id})
 end
-if tonumber(msg.sender.user_id) == 1373615087 then
+if tonumber(msg.sender.user_id) == 258295856 then
 msg.Name_Controller = 'مبرمج السورس '
 msg.The_Controller = 1
-elseif tonumber(msg.sender.user_id) == 1373615087 then
+elseif tonumber(msg.sender.user_id) == 258295856 then
 msg.Name_Controller = 'مطور السورس '
 msg.The_Controller = 1
 elseif The_ControllerAll(msg.sender.user_id) == true then  
@@ -9914,21 +9914,21 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'Channel Source ،', url = 't.me/ieeo3s'}, 
+{text = 'Channel Source ،', url = 't.me/vv_sv7'}, 
 },
 {
-{text = 'Annotations Source', url = 't.me/TKSLX'}, 
+{text = 'Annotations Source', url = 't.me/VV455'}, 
 },
 {
-{text = 'Communication Source', url = 't.me/PEE9BOT'}, 
+{text = 'Communication Source', url = 't.me/OF4CBOT'}, 
 },
 {
-{text = 'Developer Source !', url = 't.me/PPPPPE'}, 
+{text = 'Developer Source !', url = 't.me/FFBBBF'}, 
 },
 }
 }
 return LuaTele.sendText(msg_chat_id,msg_id, [[
-*⌔︙Source BlackPink *
+*⌔︙Source MATRIX *
 ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉ ┉
 ]],"md",false, false, false, false, reply_markup)
 elseif text == 'الاوامر' then

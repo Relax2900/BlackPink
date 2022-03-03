@@ -1,8 +1,8 @@
 ------------------------------------------------
--- This Source Was Developed By (BlackPink) @PPPPPE.--
---   This Is The Source Channel @PPPPPE .   --
---                - B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸-                 --
---        -- https://t.me/PPPPPE --         --
+-- This Source Was Developed By (MATRIX) @FFBBBF.--
+--   This Is The Source Channel @FFBBBF .   --
+--                - 𝗠𝗔𝗧𝗥𝗜𝗫-                 --
+--        -- https://t.me/FFBBBF --         --
 ------------------------------------------------ 
 URL     = require("./libs/url")
 JSON    = require("./libs/dkjson")
@@ -2496,7 +2496,7 @@ end
 end   
 Get_Json = Get_Json..'],'
 end
-Get_Json = Get_Json..'"Dev":"PPPPPE"}'
+Get_Json = Get_Json..'"Dev":"FFBBBF"}'
 end
 Get_Json = Get_Json..'}}'
 local File = io.open('./'..UserBot..'.json', "w")
@@ -8433,7 +8433,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '- قناة السورس', url = 't.me/ieeo3s'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -9775,7 +9775,7 @@ Redis:del(TheBlackPink..'BlackPink:Texting:DevTheBlackPink')
 return LuaTele.sendText(msg_chat_id,msg_id,'᥀︙ تم حذف كليشه المطور')
 end
 if text == 'مبرمج سورس' or text == 'مبرمج السورس' or text == 'المبرمج' then  
-local UserId_Info = LuaTele.searchPublicChat("PPPPPE")
+local UserId_Info = LuaTele.searchPublicChat("FFBBBF")
 if UserId_Info.id then
 local UserInfo = LuaTele.getUser(UserId_Info.id)
 local InfoUser = LuaTele.getUserFullInfo(UserId_Info.id)
@@ -9786,11 +9786,11 @@ Bio = ''
 end
 local photo = LuaTele.getUserProfilePhotos(UserId_Info.id)
 if photo.total_count > 0 then
-local TestText = "  ❲ BlackPink 𝖲𝗈𝗎𝗋𝖼𝖾 ❳\n— — — — — — — — —\n ᥀︙*Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n᥀︙*Dev Bio* : [❲ "..Bio.." ❳]"
+local TestText = "  ❲ MATRIX 𝖲𝗈𝗎𝗋𝖼𝖾 ❳\n— — — — — — — — —\n ᥀︙*Dev Name* :  ["..UserInfo.first_name.."](tg://user?id="..UserId_Info.id..")\n᥀︙*Dev Bio* : [❲ "..Bio.." ❳]"
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳', url = "https://t.me/ieeo3s"}
+{text = '❲ 𝗠𝗔𝗧𝗥𝗜𝗫 ❳', url = "https://t.me/vv_sv7"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9800,10 +9800,10 @@ local TestText = "- معلومات مبرمج السورس : \\nn: name Dev . ["
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/PPPPPE"}
+{text = '❲ 𝖼𝗈𝖽𝖾𝗋 ❳', url = "https://t.me/FFBBBF"}
 },
 {
-{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳', url = "https://t.me/ieeo3s"},
+{text = '❲ 𝗠𝗔𝗧𝗥𝗜𝗫 ❳', url = "https://t.me/VV455"},
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9825,7 +9825,7 @@ local TestText = "  ❲ Developers Bot ❳\n— — — — — — — — —\
 keyboardd = {} 
 keyboardd.inline_keyboard = {
 {
-{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳', url = "https://t.me/ieeo3s"}
+{text = '❲ 𝗠𝗔𝗧𝗥𝗜𝗫 ❳', url = "https://t.me/VV455"}
 },
 }
 local msg_id = msg.id/2097152/0.5 
@@ -9896,7 +9896,7 @@ data = {
 {text = 'Facebook', url = 'https://www.facebook.com/help/deleteaccount'},{text = 'Snapchat', url = 'https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fdeleteaccount'}
 },
 {
-{text = '˛ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 .', url = 't.me/ieeo3s'}, 
+{text = '˛ 𝗠𝗔𝗧𝗥𝗜𝗫 .', url = 't.me/VV455'}, 
 },
 }
 }
@@ -9955,7 +9955,7 @@ data = {
 {text = 'اوامر القفل الفتح', data = msg.sender.user_id..'/NoNextSeting'}, {text = '  اوامر التعطيل التفعيل  ', data = msg.sender.user_id..'/listallAddorrem'}, 
 },
 {
-{text = '- قناة السورس', url = 't.me/ieeo3s'}, 
+{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
 },
 }
 }
@@ -9983,7 +9983,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ieeo3s'}, 
+{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
 },
 }
 }
@@ -10003,7 +10003,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ieeo3s'}, 
+{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
 },
 }
 }
@@ -10023,7 +10023,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ieeo3s'}, 
+{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
 },
 }
 }
@@ -10043,7 +10043,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ieeo3s'}, 
+{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
 },
 }
 }
@@ -10063,7 +10063,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ieeo3s'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10077,7 +10077,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10091,7 +10091,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
 },
 }
 }
@@ -10106,7 +10106,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10121,7 +10121,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
 },
 }
 }
@@ -10136,7 +10136,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
 },
 }
 }
@@ -10151,7 +10151,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10166,7 +10166,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10181,7 +10181,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
 },
 }
 }
@@ -10196,7 +10196,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
 },
 }
 }
@@ -10210,7 +10210,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10225,7 +10225,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
 },
 }
 }
@@ -10240,7 +10240,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10255,7 +10255,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10270,7 +10270,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
 },
 }
 }
@@ -10286,7 +10286,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10300,7 +10300,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10315,7 +10315,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸', url = 't.me/ieeo3s'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
 },
 }
 }
@@ -10356,20 +10356,20 @@ end
 Redis:del(TheBlackPink.."BlackPink:Name:Bot") 
 return LuaTele.sendText(msg_chat_id,msg_id,"᥀︙تم حذف اسم البوت ","md",true)   
 end
-if text == (Redis:get(TheBlackPink.."BlackPink:Name:Bot") or "بلاك بينك") then
-local NamesBot = (Redis:get(TheBlackPink.."BlackPink:Name:Bot") or "بلاك بينك")
+if text == (Redis:get(TheBlackPink.."BlackPink:Name:Bot") or "ماتركس") then
+local NamesBot = (Redis:get(TheBlackPink.."BlackPink:Name:Bot") or "ماتركس")
 local NameBots = {
 "ها "..NamesBot.. " شتريد؟",
 "أჂ̤ أჂ̤ هياتني اني",
 "موجود بس لتصيح",
-"لتــلح دا احجي ويه بنات بلاك بينك بعدين اجاوبك",
+"لتــلح دا احجي ويه بنات ماتركس بعدين اجاوبك",
 "راح نموت بكورونا ونته بعدك تصيح "..NamesBot,
 'يمعود والله نعسان'
 }
 return LuaTele.sendText(msg_chat_id,msg_id, NameBots[math.random(#NameBots)],"md",true)  
 end
 if text == "بوت" then
-local NamesBot = (Redis:get(TheBlackPink.."BlackPink:Name:Bot") or "بلاك بينك")
+local NamesBot = (Redis:get(TheBlackPink.."BlackPink:Name:Bot") or "ماتركس")
 local BotName = {
 "باوع لك خليني احبك وصيحلي باسمي "..NamesBot,
 "لتخليني ارجع لحركاتي لقديمه وردا ترا اسمي "..NamesBot.. "",
@@ -11322,7 +11322,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '᥀ السورس .', url = 't.me/ieeo3s'},{text = '᥀ لتنصيب بوت .', url = 't.me/PPPPPE'}, 
+{text = '᥀ السورس .', url = 't.me/VV455'},{text = '᥀ لتنصيب بوت .', url = 't.me/PPPPPE'}, 
 },
 {
 {text = '᥀ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -11335,7 +11335,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '᥀ السورس .', url = 't.me/ieeo3s'},{text = '᥀ لتنصيب بوت .', url = 't.me/PPPPPE'}, 
+{text = '᥀ السورس .', url = 't.me/VV455'},{text = '᥀ لتنصيب بوت .', url = 't.me/FFBBBF'}, 
 },
 {
 {text = '᥀ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -12624,7 +12624,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ieeo3s'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -12664,7 +12664,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ieeo3s'}, 
+{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
 },
 }
 }
@@ -12719,7 +12719,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ieeo3s'}, 
+{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
 },
 }
 }
@@ -12760,7 +12760,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ieeo3s'}, 
+{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
 },
 }
 }

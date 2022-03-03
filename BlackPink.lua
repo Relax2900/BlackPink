@@ -1575,7 +1575,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ⁦', url='https://t.me/ieeo3s'},
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫 ⁦', url='https://t.me/VV455'},
 },
 }
 }
@@ -1772,7 +1772,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ⁦', url='https://t.me/ieeo3s'},
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫 ⁦', url='https://t.me/VV455'},
 },
 }
 }
@@ -2046,7 +2046,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = 'B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ⁦', url='https://t.me/ieeo3s'},
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫 ⁦', url='https://t.me/VV455'},
 },
 }
 }
@@ -2726,7 +2726,7 @@ data = {
 {text = '‹ تفعيل الايدي ›', data = msg.sender.user_id..'/'.. 'mute_IdPhoto'},
 },
 {
-{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'},
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'},
 },
 }
 }
@@ -4535,7 +4535,7 @@ data = {
 {text = '- الغاء الامر', data = msg.sender.user_id..'/delamrredis'},
 },
 {
-{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url='https://t.me/vv_sv7'},
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url='https://t.me/VV455'},
 },
 }
 }

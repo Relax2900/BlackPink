@@ -156,7 +156,7 @@ Distinguished = Redis:sismember(TheBlackPink.."BlackPink:Distinguished:Group"..C
 StatusMember = LuaTele.getChatMember(ChatId,UserId).status.luatele
 if UserId == 258295856 then
 Status = 'مبرمج السورس'
-elseif UserId == 258295856 then
+elseif UserId == 991854306 then
 Status = 'مطور السورس'
 elseif UserId == Sudo_Id then  
 Status = 'المطور الاساسي'
@@ -904,7 +904,7 @@ end
 if tonumber(msg.sender.user_id) == 258295856 then
 msg.Name_Controller = 'مبرمج السورس '
 msg.The_Controller = 1
-elseif tonumber(msg.sender.user_id) == 258295856 then
+elseif tonumber(msg.sender.user_id) == 991854306 then
 msg.Name_Controller = 'مطور السورس '
 msg.The_Controller = 1
 elseif The_ControllerAll(msg.sender.user_id) == true then  

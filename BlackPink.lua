@@ -9955,7 +9955,7 @@ data = {
 {text = 'اوامر القفل الفتح', data = msg.sender.user_id..'/NoNextSeting'}, {text = '  اوامر التعطيل التفعيل  ', data = msg.sender.user_id..'/listallAddorrem'}, 
 },
 {
-{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -9983,7 +9983,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
+{text = '- قناة السورس', url = 't.me/vV455'}, 
 },
 }
 }
@@ -10003,7 +10003,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10023,7 +10023,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10043,7 +10043,7 @@ data = {
 {text = '{ قائمه الاوامر }', data = msg.sender.user_id..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10091,7 +10091,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10121,7 +10121,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10136,7 +10136,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10181,7 +10181,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10196,7 +10196,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10225,7 +10225,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10270,7 +10270,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -10315,7 +10315,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/vv_sv7'}, 
+{text = '𝗠𝗔𝗧𝗥𝗜𝗫', url = 't.me/VV455'}, 
 },
 }
 }
@@ -11322,7 +11322,7 @@ local reply_markup = LuaTele.replyMarkup{
 type = 'inline',
 data = {
 {
-{text = '᥀ السورس .', url = 't.me/VV455'},{text = '᥀ لتنصيب بوت .', url = 't.me/PPPPPE'}, 
+{text = '᥀ السورس .', url = 't.me/VV455'},{text = '᥀ لتنصيب بوت .', url = 't.me/FFBBBF'}, 
 },
 {
 {text = '᥀ اضفني في مجموعتك .', url = 't.me/'..UserBot..'?startgroup=new'}, 
@@ -12176,7 +12176,7 @@ keyboard.inline_keyboard = {
 {text = ': مره اخرى 🔃.', callback_data = IdUser..'/Re@'},
 },
 {
-{text = '❲ B𝗹𝗮𝗰𝗸𝗽𝗶𝗻𝗸 ❳',url="t.me/ieeo3s"}
+{text = '❲ 𝗠𝗔𝗧𝗥𝗜𝗫 ❳',url="t.me/VV455"}
 },
 }
 https.request("https://api.telegram.org/bot"..Token..'/sendVoice?chat_id=' .. ChatId .. '&voice=https://t.me/TEAMSUL/'..Abs..'&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -12512,7 +12512,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ieeo3s'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -12571,7 +12571,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/ieeo3s'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -12664,7 +12664,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -12719,7 +12719,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
@@ -12760,7 +12760,7 @@ data = {
 {text = 'القائمه الرئيسيه ', data = IdUser..'/helpall'},
 },
 {
-{text = '- قناة السورس', url = 't.me/vv_sv7'}, 
+{text = '- قناة السورس', url = 't.me/VV455'}, 
 },
 }
 }
